@@ -11,8 +11,8 @@ bot = commands.Bot(command_prefix='$', intents=intents)
 async def on_ready():
     print(f'We have logged in as {bot.user}')
 
-@bot.command()
-async def help_cs(ctx):
+#@bot.command()
+#async def help_cs(ctx):
      #потом добвалю сюда список команд
 
 @bot.command()
