@@ -39,4 +39,4 @@ async def savex(ctx):
 async def clear(ctx, amount=5): 
     await ctx.channel.purge(limit=amount)
 
-bot.run("MTEwNDY3MzcxOTI2MTA3MzUwOA.GnOFpo.bu55dP1ryLL-c0H0G9mxcYT7D-WZUf8Vvz3ozc")
+bot.run("token")
